@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown a{
+  width: 100%;
+}
+
+/* .dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 50px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+} */
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.calculator{
+  margin-left: 30px;
+}
+
+.product{
+  width: 300px;
+  background: rgb(71, 71, 71);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-left: 20px;
+  float: left;
+  display: inline-block;
+}
+
+.product:before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 0;
+}
+
+.product:after {
+	content: '';
+	display: inline-block;    
+	width: 100%;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.product_img{
+  width: 100%;
+}
+
+.product_name{
+  color: white;
+  text-align: center;
+}
+
+.product_price{
+  color: white;
+  text-align: right;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.add{
+  padding: 10px;
+}
+
+.cancel {
+  padding: 9px;
+}
+
+.cart {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #3b3e44;
+  transition: 0.1s;
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  padding: 15px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart:hover {
+  transform: scale(1.1);
+}
+
+.cart__num {
+  position: absolute;
+  background-color: #d62240;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  top: -5px;
+  right: -5px;
+} */
+
+.main-menu img{
+  margin: -13px;
+  width: 260px;
+  margin-top: -10px;
+}
+
+.main-page{
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.main{
+  width: 100%;
+  height: 500px;
+}
+
+.main_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.died{
+  margin: 5% 15%;
+  display: table;
+}
+
+.icons{
+  width: 100px;
+  float: left;
+  margin-bottom: 4%;
+  margin-right: 5%;
+}
+
+.died_text{
+  text-align: justify;
+  margin-top: 35px;
+  margin-left: 100px;
+}
+
+.diedtext{
+  margin-bottom: 40px;
+}
+
+.dialog{
+  width: 50%;
+  height: 50%;
+}
+
+.dialog_text{
+  display: flex;
+}
+
+.dialog_number{
+  color: #333;
+  text-decoration: none;
+}
+
+.info{
+  width: 200px;
+  height: 100px;
+  background: #333;
+  color: #fff;
+  margin: 40px 50px;
+}
+
+.asd{
+text-align: center;
+}
+
+.info--1{
+  text-align: center;
+  margin: 2% 10%;
+}
+
+.info_1{
+  /* background: #3b3e44; */
+  color: #000000;
+}
+
+
+.advantages{
+  display: table;
+  margin-bottom: 12px;
+}
+
+.advantages_list{
+  float: left;
+  margin-left: 10%;
+}
+
+.advantages_img{
+  float: right;
+  width: 40%;
+  margin-right: 15%;
+}
+
+.advantages li {
+  margin-bottom: 5%;
+}
+
+.footer{
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 200px;
+  overflow: hidden;
+}
+
+.footer a {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .main-menu{
+  height: 100%;
+  }
+
+  .navbar a{
+    text-align: center;
+  }
+
+  .main_text{
+    width: 100%;
+  }
+
+  .died{
+    margin: auto;
+    display: table;
+  }
+  
+  .icons{
+    text-align: center;
+    width: 100px;
+    float: none;
+    margin-bottom: auto;
+    margin-right: auto;
+  }
+  
+  .died_text{
+    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+  }
+
+  .died h1{
+    text-align: center;
+  }
+
+  .advantages{
+    text-align: center;
+  }
+
+  .advantages li {
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  
+  .advantages_list{
+    float: none;
+    margin-left: auto;
+  }
+  
+  .advantages_img{
+    float: none;
+    width: 60%;
+    margin-right: auto;
+  }
+  
+}
